@@ -9,13 +9,16 @@ Open your terminal and run the command below to install all required node module
 npm install
 ```
 
-Now install [mysql database](https://www.mysql.com/downloads/), it will be used to store all the configuration of the servers the bot has joined.
+Now install [MySQL database](https://www.mysql.com/downloads/), it will be used to store all the configuration of the servers the bot has joined.
 <br/>
 <img src="https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png" width=100>
-
-Update your .env file.
 <br/>
-Be sure to update yours database credentials and your bot token:
+After installing, run schema.sql, located inside the [database folder](https://github.com/GUY7777/SnozBot/tree/master/database).
+<br/>
+It will create the database and all the required tables within MySQL.
+
+#### Update your .env file
+Make sure to update yours database credentials and your bot token:
 ```
 DISCORD_BOT_TOKEN=tokenhere
 DB_HOST=localhost
