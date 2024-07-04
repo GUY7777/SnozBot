@@ -15,7 +15,7 @@ Now install [mysql database](https://www.mysql.com/downloads/), it will be used 
 
 Update your .env file.
 <br/>
-Be sure to update yours database credentials and corresponding token to the bot you created:
+Be sure to update yours database credentials and your bot token:
 ```
 DISCORD_BOT_TOKEN=tokenhere
 DB_HOST=localhost
