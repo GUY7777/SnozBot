@@ -18,7 +18,7 @@ After installing, run schema.sql, located inside the [database folder](https://g
 It will create the database and all the required tables within MySQL.
 
 #### Update your .env file
-Make sure to update yours database credentials and your bot token:
+Make sure to update your database credentials and your bot token:
 ```
 DISCORD_BOT_TOKEN=tokenhere
 DB_HOST=localhost
